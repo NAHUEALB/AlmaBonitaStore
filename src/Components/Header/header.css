@@ -1,0 +1,45 @@
+/* header.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .icon {
+    margin-right: 20px;
+  }
+  
+  .logo {
+    width: 50px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+  }
+  
+  .search input {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .btn-login button {
+    margin-left: 10px;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #61dafb; /* Color de fondo del botón, puedes cambiarlo según tus preferencias */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Agregar estilos para el enlace (a) si es necesario */
+  
+  .btn-login button:hover {
+    background-color: #4fa3d1; /* Cambia el color al pasar el ratón sobre el botón */
+  }
+  
